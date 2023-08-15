@@ -2,6 +2,8 @@
 
 This project presents an experimental approach to tackle the challenge of data scarcity in a specific task by exploring the utilization of existing annotated datasets from related NLP tasks. Our experiment involves training a single base model, such as BERT, with multiple heads, each dedicated to a specific task, and running them simultaneously during training. We term these additional tasks as "supporting tasks." The goal is to leverage shared knowledge across different domains and enhance the model's performance and robustness.
 
+See the full report in the following pdf: ```Advanced_NLP_Project.pdf```
+
 **Branches:**
 - Medical tasks can be found in the `main` branch.
 - The GLUE (General Language Understanding Evaluation) tasks can be found in the `glue_tasks` branch.
