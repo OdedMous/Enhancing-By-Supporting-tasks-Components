@@ -1,6 +1,6 @@
 # Enhancing-By-Subtasks-Components
 
-This project presents an experimental approach to tackle the challenge of data scarcity in a specific NLP task by exploring the utilization of existing annotated datasets from related tasks. Our experiment involves training a single base model, such as BERT, with multiple heads that are each dedicated to a specific task, and running them simultaneously during training. We term these additional tasks as "supporting tasks." The goal is to leverage shared knowledge across different domains and by that enhance the model's performance.
+This project presents an experimental approach to tackle the challenge of data scarcity in a specific NLP task by  utilizing existing annotated datasets from related tasks. Our experiment involves training a single base model, such as BERT, with multiple heads that are each dedicated to a specific task, and running them simultaneously during training. We term these additional tasks as "supporting tasks." The goal is to leverage shared knowledge across different domains and by that enhance the model's performance.
 
 See the full report in the following pdf: ```Advanced_NLP_Project.pdf```
 
